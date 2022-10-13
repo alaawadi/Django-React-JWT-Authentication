@@ -1,0 +1,37 @@
+main{
+    min-height: calc(100vh - 112px);
+    
+}
+
+
+/*
+.loading {
+    width: 1080px;
+    height: 720px;
+    margin: 48%;
+     outline: solid 1px black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+  } 
+  */
+
+
+
+
+  .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031; /* High z-index so it is on top of the page */
+    top: 50%;
+    right: 50%; /* or: left: 50%; */
+    margin-top: 310px; /* half of the elements height */
+    margin-right: 310px; /* half of the elements width */
+  }
